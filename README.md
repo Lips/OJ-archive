@@ -1,4 +1,4 @@
-OJ-test
+OJ-archive
 =======
 
-OJ static archive test
+OJ static archive
