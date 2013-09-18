@@ -274,3 +274,11 @@
     margin: 1em 0;
     padding: 0.5em;
   }
+
+/** forum pager list fix **/
+
+.item-list ul li {
+  float: left;
+  margin-left: 3px;
+  list-style-type: none;
+}
