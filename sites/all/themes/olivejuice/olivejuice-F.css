@@ -757,6 +757,7 @@ blockquote {
 
   #user-login-form /* Drupal's default login form */
   {
+	display:none;
     text-align: left;
   }
 
@@ -1129,3 +1130,25 @@ table.views-table td.views-field-field-image-cache-fid
 }
 
 /* Localized */
+
+/* Foolproofing archive with a bunch of display:none tomfoolery*/
+
+.block-simplenews {
+	display:none;
+}
+
+.forum-post-links {
+	display:none;
+}
+
+.forum-links {
+	display:none;
+}
+
+li.comment_forbidden {
+	display:none;
+}
+
+.comment_forbidden > span:nth-child(1) {
+	display:none;
+}
