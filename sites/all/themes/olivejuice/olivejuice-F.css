@@ -44,8 +44,10 @@ blockquote {
 /** body **/
   body
   {
-    margin: 0;
-    background: #55983b url('images/page-bg.png');
+	margin: 0;
+    background: url('images/ribbon.gif'), url('images/page-bg.png');
+	background-repeat: no-repeat, repeat;
+	background-position: right top, left top;
   }
 
   #page
