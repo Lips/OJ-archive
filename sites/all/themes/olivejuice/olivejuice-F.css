@@ -269,6 +269,7 @@ blockquote {
 
   #search-box /* Wrapper for the search form */
   {
+	display:none;
   }
 
   #edit-search-theme-form-1-wrapper label /* Label that says "Search this site:" */
